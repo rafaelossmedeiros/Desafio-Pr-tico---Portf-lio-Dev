@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 1366px;
+    
+
+}
+
+
+
+section {
+
+
+    
+    background-image: url(assets/images/Background_Intro.png);
+
+    background-size: cover;
+    min-width:100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+
+
+#intro {
+    
+    width: 680px;
+    height: 327px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+
+header {
+    
+    width: 1040px;
+    height: 447px;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    
+
+}
+
+
+#iconroll {
+    margin-top: 94px;
+    margin-bottom: 64.5px;
+}
+
+
+#avatar {
+    
+    width: 112px;
+    height: 112px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 56px;
+
+    
+}
+
+#fotodev {
+    
+    border-radius: 100%; 
+    width: 96px;
+    height: 96px;
+
+    justify-content: center;
+    align-items: center;
+    
+    
+    img {
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        border: solid 2.4px #E3646E;
+        padding: 4px
+        
+        
+    }
+
+   
+}
+
+#codeimage {
+    position: absolute;
+    overflow:visible;
+    z-index:  1;
+    right: 6px;
+    bottom: 1px;
+    width: 32px;
+    height: 32px;
+    background-image: url(assets/images/aaa.png);
+    background-size: cover;
+    object-fit: cover;
+
+
+} 
+
+
+
+
+:root {
+
+    --h1: 800 24px/135% var(--font-family);
+
+    /*Asap*/
+    --font-family-asap: "Asap", sans-serif;
+    --title-lg: 700 56px/120% var(--font-family-asap);
+    --title-md: 700 24px/120% var(--font-family-asap);
+    --title-sm: 700 16px/120% var(--font-family-asap);
+
+    /*Inconsolata*/
+    --font-family-inconsolata: "Inconsolata", monospace;
+    --subtitle: 400 20px/120% var(--font-family-inconsolata);
+
+    /*Maven Pro*/
+    --font-family-maven: "Maven Pro", sans-serif;
+    --text-md: 400 16px/140% var(--font-family-maven);
+    --text-sm: 400 14px/140% var(--font-family-maven);
+
+}
+
+#subtitle {
+
+    justify-self: center;
+
+    font: var(--subtitle);
+    color: #C0C4CE;
+
+    span{
+        color: #E3646E;
+    }
+}
+
+
+#title-lg {
+    margin-top: 8px;
+    justify-self: center;
+    stroke: none;
+    font: var(--title-lg);
+    color: #E2E4E9;
+
+
+    
+}
+
+
+#text-sm {
+
+    justify-self: center;
+    margin-top: 20px;
+
+    font: var(--text-sm);
+    color: #878EA1;
+    text-align: center;
+
+}
+
+
+
+
+
+
